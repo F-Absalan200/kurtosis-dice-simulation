@@ -6,7 +6,8 @@ An interactive statistical simulation demonstrating how a seemingly highly profi
 - **99% Chance:** You roll a standard 6-sided dice and **WIN** the amount shown ($1 to $6).
 - **1% Chance:** You immediately **LOSE** $350.
 
-![Black Swan](Images\Black_swan.png)
+<img width="1408" height="768" alt="Black_swan" src="https://github.com/user-attachments/assets/998e61d9-6fc4-48e6-ac86-6f87791f3916" />
+
 
 While the expected value per roll looks positive at first glance, long-term repetitions trigger the negative impact of high kurtosis (extreme rare events), resulting in unavoidable overall bankruptcy.
 
