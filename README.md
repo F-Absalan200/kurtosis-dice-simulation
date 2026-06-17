@@ -14,14 +14,14 @@ While the expected value per roll looks positive at first glance, long-term repe
 
 This repository contains two different implementations to show progression in coding styles:
 
-### 1. Manual Approach (`simulation_v1.py`)
-- Uses a manual choice array to pick between the 1% and 99% probability.
-- Great for step-by-step logic visualization.
+### 1. Manual Approach (`core/simulation_v1.py`)
+- Simulates the 99% vs 1% odds by manually creating a 100-element list (99 zeros and one 1).
+- Loops through the list and rolls a standard dice based on custom conditions.
 
-### 2. Pythonic & Optimized (`simulation_v2.py`)
-- Rewritten using direct NumPy random integer range (`1-100`).
-- Cleaner, faster, and more memory-efficient code structure.
+### 2. Vectorized & Optimized (`core/simulation_v2.py`)
+- Uses NumPy's probabilistic capabilities (`np.random.choice` with a `p` parameter).
+- Provides a cleaner, more readable, and faster simulation structure.
 
 ### 3. Interactive Web App (`app.py`)
 - Built with **Streamlit** and **Matplotlib**.
-- Provides a UI with a slider to test different iteration numbers dynamically.
+- Imports the core simulation logic to provide a UI with a slider for dynamic testing.

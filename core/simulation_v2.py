@@ -13,7 +13,7 @@ def run_dice_simulation(num_simulations=50000):
 
     for i in range(steps):
         result = np.random.choice(game_elements, p=probabilities)
-        if result == '-350':
+        if result == -350:
             cash -= 350
             cash_sequence.append(cash)
         else:
