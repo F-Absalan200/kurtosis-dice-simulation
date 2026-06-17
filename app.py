@@ -5,7 +5,7 @@ from core.simulation_v2 import run_dice_simulation
 
 st.title("🎲 Dice Game Paradox & Kurtosis")
 
-iterations = st.slider("Number of iterations:", 100, 100000, 50000, step=500)
+iterations = st.slider("Number of iterations:", 100, 10000, 5000, step=100)
 
 if st.button("Run Simulation"):
     cash_seq = run_dice_simulation(num_simulations=iterations)
