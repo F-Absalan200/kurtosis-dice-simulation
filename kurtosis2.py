@@ -1,3 +1,6 @@
+# Version 2: More Pythonic and optimized approach.
+# Directly utilizes NumPy's built-in random integer generation for cleaner logic.
+
 import random as rd
 
 hundredfaced_dice = [0, 1]

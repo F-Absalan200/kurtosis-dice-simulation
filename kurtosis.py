@@ -1,3 +1,7 @@
+# Version 1: Manual approach using custom choice array to select the 1/100 event.
+# This version explicitly visualizes the 99% vs 1% probability distribution.
+
+
 import numpy as np
 import random
 
