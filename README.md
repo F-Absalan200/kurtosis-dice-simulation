@@ -14,11 +14,11 @@ While the expected value per roll looks positive at first glance, long-term repe
 
 This repository contains two different implementations to show progression in coding styles:
 
-### 1. Manual Approach (`with_numpy_v1.py`)
+### 1. Manual Approach (`simulation_v1.py`)
 - Uses a manual choice array to pick between the 1% and 99% probability.
 - Great for step-by-step logic visualization.
 
-### 2. Pythonic & Optimized (`with_numpy_v2.py`)
+### 2. Pythonic & Optimized (`simulation_v2.py`)
 - Rewritten using direct NumPy random integer range (`1-100`).
 - Cleaner, faster, and more memory-efficient code structure.
 
